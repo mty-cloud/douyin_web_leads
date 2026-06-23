@@ -11,6 +11,11 @@ data/screenshots/
 data/html_snapshots/
 data/exports/
 data/logs/
+data/test_profile/
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/*.backup_*
+log
 .Python
 build/
 develop-eggs/
