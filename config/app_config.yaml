@@ -1,0 +1,58 @@
+douyin_home_url: https://www.douyin.com
+browser:
+  headless: false
+  user_data_dir: data/browser_profile
+  slow_mo: 200
+  viewport_width: 1440
+  viewport_height: 900
+  randomize_viewport: false
+search:
+  max_scroll_per_keyword: 10
+  stop_after_no_new_pages: 2
+  max_candidates_per_keyword: 20
+  wait_after_search_seconds: 5
+  wait_after_scroll_seconds: 0
+collector:
+  click_more_button: true
+  profile_scrolls: 3
+  batch_delay_min: 15
+  batch_delay_max: 30
+  max_users_per_keyword: 15
+  profile_wait_after_click_min: 3
+  profile_wait_after_click_max: 5
+anti_detection:
+  min_delay_ms: 1200
+  max_delay_ms: 5000
+  mouse_move_steps_min: 8
+  mouse_move_steps_max: 15
+  random_mouse_move: true
+  random_mouse_chance: 0.5
+  random_activity: true
+  random_activity_chance: 0.25
+collection_budget:
+  max_keywords_per_run: 5
+  max_search_scrolls_per_keyword: 10
+  max_new_candidates_per_keyword: 20
+  max_profiles_per_run: 15
+  max_profile_failures_per_run: 3
+  stop_on_first_risk_event: true
+profile:
+  max_profiles_per_run: 15
+  open_in_new_tab: true
+  save_html_snapshot: false
+  save_screenshot: false
+  use_ocr_fallback: false
+  card_score_threshold: 50
+ocr:
+  provider: paddleocr
+  enabled: false
+  language: ch
+zhipu_ai:
+  enabled: true
+  api_key_env: ZHIPU_API_KEY
+  base_url: https://open.bigmodel.cn/api/paas/v4/
+  model: glm-5.2
+  temperature: 0.1
+  max_tokens: 1200
+  call_ai_when_rule_score_gte: 60
+  require_json: true

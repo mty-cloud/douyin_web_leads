@@ -1,0 +1,162 @@
+templates:
+  # ============================================================
+  # 高优先级：核心品类 × 实体店
+  # ============================================================
+  - template_text: "{county}女装店"
+    keyword_type: "template"
+    category_tag: "女装实体店"
+    priority: "high"
+    is_active: true
+    note: "核心目标：县城女装实体店"
+
+  - template_text: "{county}女装实体店"
+    keyword_type: "template"
+    category_tag: "女装实体店"
+    priority: "high"
+    is_active: true
+    note: "精准指定实体店"
+
+  - template_text: "{county}服装店"
+    keyword_type: "template"
+    category_tag: "服装店"
+    priority: "high"
+    is_active: true
+    note: "泛服装店，扩大覆盖"
+
+  - template_text: "{county}服装实体店"
+    keyword_type: "template"
+    category_tag: "服装店"
+    priority: "high"
+    is_active: true
+    note: "服装实体店精准词"
+
+  # ============================================================
+  # 高优先级：目标客群（35-60岁女性）
+  # ============================================================
+  - template_text: "{county}妈妈装"
+    keyword_type: "template"
+    category_tag: "妈妈装"
+    priority: "high"
+    is_active: true
+    note: "核心目标年龄层客群"
+
+  - template_text: "{county}中老年女装"
+    keyword_type: "template"
+    category_tag: "中老年女装"
+    priority: "high"
+    is_active: true
+    note: "核心目标年龄层客群"
+
+  - template_text: "{county}大码女装"
+    keyword_type: "template"
+    category_tag: "大码女装"
+    priority: "high"
+    is_active: true
+    note: "大码女装，目标客群常搜词"
+
+  # ============================================================
+  # 高优先级：核心品类（打底衫、内搭等）
+  # ============================================================
+  - template_text: "{county}打底衫"
+    keyword_type: "template"
+    category_tag: "打底衫"
+    priority: "high"
+    is_active: true
+    note: "第一核心品类"
+
+  - template_text: "打底衫批发"
+    keyword_type: "fixed"
+    category_tag: "打底衫"
+    priority: "high"
+    is_active: true
+    note: "全国打底衫批发客户"
+
+  - template_text: "{county}内搭"
+    keyword_type: "template"
+    category_tag: "内搭"
+    priority: "medium"
+    is_active: true
+    note: "核心品类：内搭"
+
+  - template_text: "{county}针织衫"
+    keyword_type: "template"
+    category_tag: "针织衫"
+    priority: "medium"
+    is_active: true
+    note: "核心品类：针织衫/毛衣"
+
+  - template_text: "{county}羊毛衫"
+    keyword_type: "template"
+    category_tag: "针织衫"
+    priority: "medium"
+    is_active: true
+    note: "核心品类：羊毛衫"
+
+  - template_text: "{county}保暖内搭"
+    keyword_type: "template"
+    category_tag: "打底衫"
+    priority: "high"
+    is_active: true
+    note: "秋冬爆品"
+
+  # ============================================================
+  # 中等优先级：经营行为词
+  # ============================================================
+  - template_text: "{county}女装上新"
+    keyword_type: "template"
+    category_tag: "上新"
+    priority: "medium"
+    is_active: true
+    note: "经营行为：经常上新 = 活跃店主"
+
+  - template_text: "{county}新款到店"
+    keyword_type: "template"
+    category_tag: "上新"
+    priority: "medium"
+    is_active: true
+    note: "经营行为：新款到店 = 实体店"
+
+  - template_text: "{county}女装批发"
+    keyword_type: "template"
+    category_tag: "批发"
+    priority: "medium"
+    is_active: true
+    note: "批发客户"
+
+  - template_text: "{county}女装零售"
+    keyword_type: "template"
+    category_tag: "零售"
+    priority: "medium"
+    is_active: true
+    note: "零售客户"
+
+  - template_text: "{county}服装工作室"
+    keyword_type: "template"
+    category_tag: "服装店"
+    priority: "medium"
+    is_active: true
+    note: "工作室模式客户"
+
+  # ============================================================
+  # 低优先级：扩展覆盖
+  # ============================================================
+  - template_text: "{county}女装穿搭"
+    keyword_type: "template"
+    category_tag: "穿搭"
+    priority: "low"
+    is_active: true
+    note: "穿搭博主也可能是店主"
+
+  - template_text: "{county}女装店主"
+    keyword_type: "template"
+    category_tag: "女装实体店"
+    priority: "low"
+    is_active: true
+    note: "店主自曝"
+
+  - template_text: "{county}老板娘"
+    keyword_type: "template"
+    category_tag: "女装实体店"
+    priority: "low"
+    is_active: true
+    note: "老板娘 = 实体店概率高"
