@@ -1,0 +1,11 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+data/browser_profile/
+data/html_snapshots/
+data/screenshots/
+data/exports/
+data/*.backup_*
+*.sqlite-shm
+*.sqlite-wal
